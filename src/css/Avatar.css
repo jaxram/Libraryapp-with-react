@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.avatar-app{
+   
+    text-align: center;
+    /*background-image: linear-gradient(90deg, rgb(255, 106, 106),rgb(121, 121, 250),rgb(55, 226, 55),rgb(255, 255, 86));*/
+    font-family:'Dancing Script';
+    text-shadow: 3px 3px 3px yellow;
+    height: 100vh;
+   
+}
+.avatar-container{
+    text-align: center;
+    padding-top:25vh ;
+   
+    
+    opacity: 1;
+}
+.avatar-head{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+   
+   
+}
+.submit{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 3px 3px 3px yellow;
+    margin-top:8px;
+    font-size:35px;
+    padding:7px;
+    font-family:'Dancing Script';
+}
+.avatarlist input{
+    display: none;
+}
+.avatarlist input[type='radio']:checked+.label_item{
+   
+   
+    background-color: rgb(125, 250, 131);
+   padding-top:48px;
+   
+   padding-bottom: 53.5px;
+   border-radius: 50%;
+ 
+}
+
+.avatar-img{
+    vertical-align: middle;
+  width: 100px;
+  height: 100px;
+ margin:7px;
+  border-radius: 50%;
+  border:3px  solid rgb(0, 0, 0);
+}

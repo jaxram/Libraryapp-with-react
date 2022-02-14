@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.login-pp {
+  
+  background-image: url('../images/library.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.9;
+  height: 110vh;
+  
+  
+}
+.emailerr{
+  font-size: 15px;
+  font-family: 'Acme';
+  color:white;
+  display:none;
+}
+.perr{
+  font-size: 15px;
+  font-family: 'Acme';
+  color:white;
+  display:none;
+}
+.login-container{
+  text-align: center;
+  padding-top:40vh ;
+  
+
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.login-container input{
+  border-radius: 7px;
+  outline: none;
+  width:25%;
+  height:30px;
+  padding:5px;
+  margin-top: 5px;
+}
+.loginbtn{
+  border-radius: 6px;
+  background-color:transparent;
+  color:rgb(255, 255, 255);
+  margin-top:8px;
+  font-size:25px;
+  padding:3px;
+  font-family:'Dancing Script';
+  outline: none;
+  border: none;
+  
+ 
+  
+}
+.signupbtn{
+  border-radius: 6px;
+  background-color:transparent;
+  color:rgb(255, 255, 255);
+  margin-top:8px;
+  font-size:25px;
+  padding:3px;
+  font-family:'Dancing Script';
+  outline: none;
+  border: none;
+}
+.heading{
+  font-family:'Dancing Script', cursive;
+  color: white;
+  font-size: 50px;
+
+}
+input:focus {
+  border:3px solid rgb(233, 166, 157) ;
+  
+}
+input{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+}

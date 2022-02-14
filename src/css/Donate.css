@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Kaushan+Script&family=Satisfy&display=swap');
+.donate-app
+{
+    background-image: url('../images/donate.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.donate-head{
+    font-family:'Kaushan Script';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px palevioletred;
+}
+.donate-content
+{
+    color: white;
+    font-family: 'Kaushan Script';
+    text-align: center;
+}
+.upi-img
+{
+    width:250px;
+    height: 350px;
+    border-radius:15px;
+}
+
+.donate-books{
+    font-family: 'Kaushan Script';
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px palevioletred;
+}
+.donate-books input
+{
+    
+  border: none;
+    
+    margin-top: 10px;
+    width:45%;
+    height:50px;
+    outline: none;
+    background-color: transparent;
+    color:rgb(251, 255, 0);
+    font-family: 'Acme';
+    font-size:20px;
+    text-align: center;
+
+}
+.donate-button
+{
+    background-color: rgb(245, 245, 245);
+    outline: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    font-family: 'Acme';
+    font-size:30px;
+    color: rgb(0, 0, 0);
+    padding:3px;
+    margin-bottom: 20px;
+    
+}
